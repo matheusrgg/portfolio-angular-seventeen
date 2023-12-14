@@ -1,0 +1,35 @@
+.rounded-image {
+    border-radius: 50%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjusts the height of the container to the viewport height */
+}
+
+/* Margin between buttons */
+.d-flex .btn {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style for the buttons */
+.d-flex .btn:last-child {
+    margin-right: 0;
+    /* Remove margin from the last button */
+}
+
+.githubicon {
+    margin-left: 8px;
+}
+
+.linkedinicon {
+    margin-left: 8px;
+}

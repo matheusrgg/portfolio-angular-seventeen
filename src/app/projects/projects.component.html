@@ -1,0 +1,21 @@
+<body>
+
+    <div class="container text-center">
+        <div class="row align-items-start">
+
+            @for ( project of projects ; track projects.id){
+            <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{project.heading}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{project.Data}}</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a target="_blank" href="{{project.link}}" class="card-link">Website</a>
+
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</body>
