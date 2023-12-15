@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
@@ -13,7 +14,7 @@ export class ProjectsComponent {
       heading: 'IBM',
       Data: '07/10/2022 - Até o momento',
       img: '/projects/logo-ibm.png',
-      description: 'Trabalhei na área de consultoria, como desenvolvedor Frontend alocado em um banco, aqui diferente da outra empresa tive a oportunidade de colocar minhas soft skills mais em prática acredito que pode ser por que a equipe é maior e o trabalho é presencial, tirei diversas certificações cheguei a fazer apresentações para mais de 50 pessoas sobre a iniciativa de onbaording . Usei as seguintes tecnologias Angular, GraphQL, Typescript, SonarQube, Jasmine, Karmine',
+      description: 'ibm-description',
       tecnologia: 'Angular, Typescript e GraphQL',
       link: ""
     },
@@ -67,5 +68,20 @@ export class ProjectsComponent {
 
 
   ]
+
+  constructor(
+    private translate: TranslateService,
+  ) {
+    this.translate.setDefaultLang("pt")
+  }
+  switchLanguage(language: string) {
+    console.log("click")
+    this.translate.use(language)
+
+  }
+
+  teste(c: any) {
+    return console.log("cade", c);
+  }
 }
 

@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 
+import { LinksBoxComponent } from './components/links-box/links-box.component';
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -21,7 +23,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HomeComponent,
     AboutMeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+
+    LinksBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +40,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: []
 })
 export class AppModule { }

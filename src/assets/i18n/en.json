@@ -3,5 +3,10 @@
     "description": "Full Stack Developer working to create innovative software that challenges my programming logic.",
     "button-about": "About Me",
     "button-projects": "Projects",
-    "button-certificates": "Certificates"
+    "button-certificates": "Certificates",
+    "aboutme-1": "TESTE",
+    "aboutme-2": "Confira alguns projetos em que trabalhei clicando <a href=>aqui</a>. No meu tempo livre gosto bastante de praticar exercícios como jogar tênis e ler. Os meus livros favoritos são os livros de Ken Follet, Mario Puzo e Scott Fitzgerald. Na área de TI, gosto bastante dos livros Clean Code e Eloquent Javascript.",
+    "aboutme-3": "Valorizo bastante um espaço dinâmico de trabalho que valoriza a diversidade e preza pela organização de código. Busco projetos que desafiem minha lógica de programação e desenvolver soluções escaláveis e de alta qualidade.",
+    "IBM": "2",
+    "ibm-description": " que pode ser por que a equipe é maior e o trabalho é presencial, tirei diversas certificações cheguei a fazer apresentações para mais de 50 pessoas sobre a iniciativa de onbaording . Usei as seguintes tecnologias Angular, GraphQL, Typescript, SonarQube, Jasmine, Karmine"
 }
