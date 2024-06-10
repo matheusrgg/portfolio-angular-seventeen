@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 90dvh; */
     /* Adjusts the height of the container to the viewport height */
 }
 

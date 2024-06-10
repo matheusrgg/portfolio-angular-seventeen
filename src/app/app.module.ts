@@ -13,6 +13,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 import { LinksBoxComponent } from './components/links-box/links-box.component';
+import { BackButtonComponent } from './components/back-button/back-button.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -25,7 +27,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutMeComponent,
     ProjectsComponent,
 
-    LinksBoxComponent
+    LinksBoxComponent,
+    BackButtonComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
