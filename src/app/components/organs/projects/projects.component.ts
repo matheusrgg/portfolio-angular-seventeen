@@ -10,19 +10,17 @@ export class ProjectsComponent {
   projects: any = [
 
 
-
-
     {
-      id: 1,
-      heading: 'Ok Park',
-      Data: '05/12/2019',
-      img: '../assets/okpark.png',
+      id: 0,
+      heading: 'IBM',
+      Data: '01/11/2022 - Até o momento',
+      img: '../assets/ibm-website.png',
       description: 'Meu primeiro freela, tive a oportunidade de fazer um site para a empresa de estacionamento do meu tio, usando html, javascript e bootstrap! Foi muito bacana pq eu criei todo o design do site. Hoje olhando vejo q mudaria bastante coisa, más foi um ótimo começo.',
       tecnologia: 'HTML e Bootstrap',
-      link: "http://www.okparkestacionamentos.com/"
+      link: "https://www.ibm.com/"
     },
     {
-      id: 2,
+      id: 1,
       heading: 'Metodo Consultoria',
       Data: '05/03/2021 - 10/05/2021',
       img: '../assets/metodoconsultoria.png',
@@ -30,6 +28,16 @@ export class ProjectsComponent {
       tecnologia: 'Wordpress, MySQL e Php',
       link: "https://metodoconsultoria.com/"
     },
+    {
+      id: 2,
+      heading: 'Ok Park',
+      Data: '05/12/2019',
+      img: '../assets/okpark.png',
+      description: 'Meu primeiro freela, tive a oportunidade de fazer um site para a empresa de estacionamento do meu tio, usando html, javascript e bootstrap! Foi muito bacana pq eu criei todo o design do site. Hoje olhando vejo q mudaria bastante coisa, más foi um ótimo começo.',
+      tecnologia: 'HTML e Bootstrap',
+      link: "http://www.okparkestacionamentos.com/"
+    },
+
     {
       id: 3,
       heading: 'Enertu',

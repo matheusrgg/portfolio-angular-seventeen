@@ -7,6 +7,25 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrl: './about-me.component.css'
 })
 export class AboutMeComponent {
+  technologies = [
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "JavaScript" },
+    { skill: "TypeScript" },
+    { skill: "Node" },
+    { skill: "React" },
+    { skill: "Next.js" },
+    { skill: "Tailwind CSS" },
+    { skill: "Git" },
+    { skill: "GitHub" },
+    { skill: "MySql" },
+    { skill: "Postgress" },
+    { skill: "Angular" },
+    { skill: "Wordpress" },
+    { skill: "Karma & Jasmine" },
+    { skill: "Php" },
+    { skill: "Graphql" },
+  ]
   constructor(
     private translate: TranslateService,
   ) {

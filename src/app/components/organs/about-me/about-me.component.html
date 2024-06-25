@@ -1,0 +1,48 @@
+<section class="container mt-4 centered-content" style="height: 80vh;">
+
+  <div class="row">
+    <!-- First column with rounded image -->
+    <div class="col-md-6">
+      <br>
+      <h1 class="display">Sobre Mim</h1>
+      <br> <br>
+      <p>
+      {{"aboutme-1" | translate}}
+      </p>
+      <br>
+      <p>
+      {{"aboutme-2" | translate}}
+  </p>
+  <br>
+
+  <p>
+      {{"aboutme-3" | translate}}
+  </p>
+    </div>
+    <!-- Second column with big name and introduction -->
+    <div class="col-md-6">
+      <br>
+      <h1 class="display"></h1>
+      <br> <br>
+      <br>
+      <h1 class="display"></h1>
+      <br> <br>
+
+        <div class="container-code-tag">
+          @for (skill of technologies; track skill) {
+
+              <p
+                key={idx}
+                class="code-tag"
+         >{{skill.skill}}
+
+        </p>
+
+
+        }
+
+        </div>
+
+    </div>
+</div>
+</section>

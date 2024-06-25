@@ -9,12 +9,13 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HomeComponent } from './home/home.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './components/organs/about-me/about-me.component';
+import { ProjectsComponent } from './components/organs/projects/projects.component';
+import { LinksBoxComponent } from './components/cells/links-box/links-box.component';
+import { BackButtonComponent } from './components/cells/back-button/back-button.component';
+import { MenuComponent } from './components/cells/menu/menu.component';
+import { FooterComponent } from './components/cells/footer/footer.component';
 
-import { LinksBoxComponent } from './components/links-box/links-box.component';
-import { BackButtonComponent } from './components/back-button/back-button.component';
-import { MenuComponent } from './components/menu/menu.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -29,7 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 
     LinksBoxComponent,
     BackButtonComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
