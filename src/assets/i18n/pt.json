@@ -5,8 +5,25 @@
     "button-projects": "Projetos",
     "button-certificates": "Certificados",
     "aboutme-1": "Olá, meu nome é Matheus. Sou um programador formado em Administração pelo Mackenzie e Desenvolvimento Web Full Stack pela Digital House. Comecei a me interessar por desenvolvimento web no final de 2018, no último semestre da faculdade de negócios. Desde então, venho tendo a oportunidade de trabalhar com ótimos programadores, designers, gestores e executivos.",
-    "aboutme-2": "Confira alguns projetos em que trabalhei clicando <a href=\"\">aqui</a>. No meu tempo livre gosto bastante de praticar exercícios como jogar tênis e ler. Os meus livros favoritos são os livros de Ken Follet, Mario Puzo e Scott Fitzgerald. Na área de TI, gosto bastante dos livros Clean Code e Eloquent Javascript.",
+    "aboutme-2": "No meu tempo livre gosto bastante de praticar exercícios como jogar tênis e ler. Os meus livros favoritos são os livros de Ken Follet, Mario Puzo e Scott Fitzgerald. Na área de TI, gosto bastante dos livros Clean Code e Eloquent Javascript.",
     "aboutme-3": "Valorizo bastante um espaço dinâmico de trabalho que valoriza a diversidade e preza pela organização de código. Busco projetos que desafiem minha lógica de programação e desenvolver soluções escaláveis e de alta qualidade.",
-    "IBM": "3",
-    "ibm-description": "Trabalhei na área de consultoria, como desenvolvedor Frontend alocado em um banco, aqui diferente da outra empresa tive a oportunidade de colocar minhas soft skills mais em prática acredito que pode ser por que a equipe é maior e o trabalho é presencial, tirei diversas certificações cheguei a fazer apresentações para mais de 50 pessoas sobre a iniciativa de onbaording . Usei as seguintes tecnologias Angular, GraphQL, Typescript, SonarQube, Jasmine, Karmine"
+
+    "PROJECTS": {
+      "HEADING_0": "IBM",
+      "DATA_0": "01/11/2022 - Até o momento",
+      "DESCRIPTION_0": "Sou responsável por supervisionar e executar deploys e revisões de código para os projetos frontend do meu squad. Também assisto outro squad com deploys, GraphQL e configurações de projeto, focando em microaplicações desenvolvidas em Angular. Meu trabalho envolve projetos em Java, onde utilizo tecnologias como GraphQL, Quarkus e Spring Boot. Adicionalmente, gerencio e desenvolvo tarefas de banco de dados utilizando SQLPad e DBeaver. Trabalho em estreita colaboração com um dos maiores bancos do mundo. Minha especialidade está em Angular para criação de interfaces de usuário, GraphQL para integração eficiente de APIs e programação reativa com RxJS. Estou comprometido em entregar código de alta qualidade e experiências de usuário excepcionais. Em um ambiente ágil, utilizo SonarQube, Jasmine e Karma para testes rigorosos e, para deploy, ArgoCD, Github Actions e AWS. Para gestão de tarefas, usamos Jira para organizar nossas atividades.",
+      "TECNOLOGIA_0": "HTML e Bootstrap",
+      "HEADING_1": "Metodo Consultoria",
+      "DATA_1": "05/03/2021 - 10/05/2021",
+      "DESCRIPTION_1": "Foi uma plataforma web que desenvolvi em PHP e WordPress para uma empresa de treinamento. Desde o início, participei ativamente no design do site, trabalhando de perto com o cliente para alcançar um resultado totalmente personalizado. Juntos, criamos um novo logo, ícones, imagens e uma nova paleta de cores, do zero. Além disso, implementamos plugins do WordPress para atividades de treinamento dinâmico, o que enriqueceu significativamente a experiência do usuário. O resultado final foi muito satisfatório e bem recebido.!",
+      "TECNOLOGIA_1": "Wordpress, MySQL e Php",
+      "HEADING_2": "Ok Park",
+      "DATA_2": "05/12/2019",
+      "DESCRIPTION_2": "Meu primeiro trabalho freelancer foi a criação de um site para a empresa de estacionamento do meu tio, utilizando HTML, JavaScript e Bootstrap. Foi uma experiência muito gratificante, pois fui responsável por todo o design do site. Olhando para trás, percebo que faria algumas mudanças agora, mas foi um excelente ponto de partida na minha carreira.",
+      "TECNOLOGIA_2": "HTML e Bootstrap",
+      "HEADING_3": "Enertu",
+      "DATA_3": "17/08/2023 - Até o momento",
+      "DESCRIPTION_3": "Desenvolvi uma plataforma de gestão compartilhada de energia solar, que funcionava de maneira similar a um  buscapé de anúncios. Essa plataforma permitia que usuários que possuíam placas solares compartilhassem o excesso de energia gerada com outros usuários, promovendo um uso mais eficiente e sustentável da energia. O projeto foi muito interessante e desafiador, pois envolveu a integração de diversas tecnologias e a criação de um sistema robusto para gerenciar as transações e a distribuição de energia entre os usuários.",
+      "TECNOLOGIA_3": "React, Next e Node"
+    }
 }

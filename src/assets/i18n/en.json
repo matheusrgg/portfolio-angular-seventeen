@@ -1,12 +1,29 @@
 {
-    "Hello": "English",
-    "description": "Full Stack Developer working to create innovative software that challenges my programming logic.",
-    "button-about": "About Me",
-    "button-projects": "Projects",
-    "button-certificates": "Certificates",
-    "aboutme-1": "TESTE",
-    "aboutme-2": "Confira alguns projetos em que trabalhei clicando <a href=>aqui</a>. No meu tempo livre gosto bastante de praticar exercícios como jogar tênis e ler. Os meus livros favoritos são os livros de Ken Follet, Mario Puzo e Scott Fitzgerald. Na área de TI, gosto bastante dos livros Clean Code e Eloquent Javascript.",
-    "aboutme-3": "Valorizo bastante um espaço dinâmico de trabalho que valoriza a diversidade e preza pela organização de código. Busco projetos que desafiem minha lógica de programação e desenvolver soluções escaláveis e de alta qualidade.",
-    "IBM": "2",
-    "ibm-description": " que pode ser por que a equipe é maior e o trabalho é presencial, tirei diversas certificações cheguei a fazer apresentações para mais de 50 pessoas sobre a iniciativa de onbaording . Usei as seguintes tecnologias Angular, GraphQL, Typescript, SonarQube, Jasmine, Karmine"
+  "Hello": "Portuguese",
+"description": "Full Stack Developer working to create innovative software, platforms, and websites that challenge my programming logic. Currently, I work at IBM as a Mid-Level Software Developer in the consulting area, assigned to one of Brazil's largest banks. I love studying technology and am currently pursuing a Bachelor's degree in Systems Analysis and Development.",
+"button-about": "About Me",
+"button-projects": "Projects",
+"button-certificates": "Certificates",
+"aboutme-1": "Hello, my name is Matheus. I am a programmer with a degree in Business Administration from Mackenzie University and Full Stack Web Development from Digital House. My interest in web development began in late 2018, during the final semester of my business degree. Since then, I've had the opportunity to work with great programmers, designers, managers, and executives.",
+"aboutme-2": "In my free time, I enjoy playing tennis and reading. My favorite books are by authors like Ken Follett, Mario Puzo, and F. Scott Fitzgerald. In the IT field, I particularly enjoy books like Clean Code and Eloquent JavaScript.",
+"aboutme-3": "I highly value a dynamic work environment that values diversity and emphasizes code organization. I seek projects that challenge my programming logic and aim to develop scalable, high-quality solutions.",
+"PROJECTS": {
+    "HEADING_0": "IBM",
+    "DATA_0": "11/01/2022 - Present",
+    "DESCRIPTION_0": "I am responsible for overseeing and executing deploys and code reviews for the frontend projects in my squad. I also assist another squad with deploys, GraphQL, and project configurations, focusing on microapps developed in Angular. My work involves Java projects, where I utilize technologies such as GraphQL, Quarkus, and Spring Boot. Additionally, I manage and develop database tasks using SQLPad and DBeaver. I work closely with one of the world's largest banks. My expertise lies in Angular for creating user interfaces, GraphQL for efficient API integration, and reactive programming with RxJS. I'm dedicated to delivering high-quality code and user experiences. In an Agile environment, I utilize SonarQube, Jasmine, and Karma for rigorous testing and for deployment ArgoCD, Github Actions, and AWS. For task management, we use Jira to organize our activities.",
+    "TECNOLOGIA_0": "HTML and Bootstrap",
+    "HEADING_1": "Method Consultancy",
+    "DATA_1": "03/05/2021 - 05/10/2021",
+    "DESCRIPTION_1": "It was a web platform I developed in PHP and WordPress for a Training company, fully customized with new logo, icons, images, and color palette. Additionally, using various WordPress plugins, we implemented dynamic training activities, enhancing user engagement.",
+    "TECNOLOGIA_1": "WordPress, MySQL, and PHP",
+    "HEADING_2": "Ok Park",
+    "DATA_2": "12/05/2019",
+    "DESCRIPTION_2": "My first freelance project, where I had the opportunity to create a website for my uncle's parking company using HTML, JavaScript, and Bootstrap. It was a great experience as I designed the entire site myself. Looking back, there are things I would improve, but it was a solid start.",
+    "TECNOLOGIA_2": "HTML and Bootstrap",
+    "HEADING_3": "Enertu",
+    "DATA_3": "08/17/2023 - Present",
+    "DESCRIPTION_3": "I developed a platform for shared management of solar energy, functioning like a 'buscapé' for ads. This platform allowed users with solar panels to share excess generated energy with others, promoting more efficient and sustainable energy use. The project was challenging and rewarding, involving integration of various technologies and creation of a robust system to manage energy transactions and distribution among users.",
+    "TECNOLOGIA_3": "React, Next.js, and Node.js"
 }
+
+  }

@@ -11,8 +11,8 @@
         <div class="card mb-3">
           <img class="card-img-top" src="{{project.img}}"alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">{{ project.heading }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ project.Data }}</h6>
+            <h5 class="card-title">{{ project.heading | translate}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ project.Data  | translate}}</h6>
             <p class="card-text">
               {{project.description | translate}}
           </p>
